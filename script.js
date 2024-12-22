@@ -17,7 +17,7 @@ document.getElementById('clickButton').addEventListener('click', function() {
     header.classList.add('popup-header');
   
     const cheeseImg = document.createElement('img');
-    cheeseImg.src = '../heart.png'; // Hình ảnh phô mai dễ thương
+    cheeseImg.src = '/heart.png';
     header.appendChild(cheeseImg);
   
     const buttons = document.createElement('div');
